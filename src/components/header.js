@@ -84,6 +84,17 @@ const Header = ({ siteTitle }) => (
           Contact
         </Link>
       </h1>
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Premier: 00 : 00 : 00
+        </Link>
+      </h1>
     </div>
   </header>
 )
