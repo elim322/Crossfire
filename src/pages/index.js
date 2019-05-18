@@ -1,21 +1,25 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Cast from "../components/cast"
+import Contact from "../components/contact"
+import Trailer from "../components/trailer"
+import StoryLine from "../components/storyline"
+import InProgress from "../components/inprogress"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="trailer/">Go to trailer</Link>
-    <Link to="storyline/">Go to storyline</Link>
+    <Cast />
+    <Contact />
+    <Trailer />
+    <StoryLine />
+    <InProgress />
   </Layout>
 )
 
