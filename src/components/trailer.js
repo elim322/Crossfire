@@ -2,7 +2,9 @@ import React from "react"
 
 const Trailer = () => (
   <>
-    <h1>Trailer</h1>
+    <div className="Video">
+      <h1>Video will be here</h1>
+    </div>
   </>
 )
 

@@ -1,7 +1,6 @@
 import React from "react"
-
+import { MuiThemeProvider } from "@material-ui/core/styles"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Cast from "../components/cast"
 import Contact from "../components/contact"
@@ -10,17 +9,17 @@ import StoryLine from "../components/storyline"
 import InProgress from "../components/inprogress"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Cast />
-    <Contact />
-    <Trailer />
-    <StoryLine />
-    <InProgress />
-  </Layout>
+  <MuiThemeProvider theme={theme}>
+    <Layout>
+      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
+      <Cast />
+      <Contact />
+      <Trailer />
+      <StoryLine />
+      <InProgress />
+    </Layout>
+  </MuiThemeProvider>
 )
 
 export default IndexPage
