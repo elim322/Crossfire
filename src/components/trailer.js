@@ -1,9 +1,13 @@
 import React from "react"
+import Video from "./video"
 
 const Trailer = () => (
   <>
     <div className="Video">
-      <h1>Video will be here</h1>
+      <Video
+        videoSrcURL="https://www.youtube.com/embed/Sso4vjERgdA"
+        videoTitle="troll video"
+      />
     </div>
   </>
 )

@@ -9,13 +9,13 @@ import StoryLine from "../components/storyline"
 import InProgress from "../components/inprogress"
 
 const IndexPage = () => (
-  <MuiThemeProvider theme={theme}>
+  <MuiThemeProvider>
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
+      <Trailer />
       <Cast />
       <Contact />
-      <Trailer />
       <StoryLine />
       <InProgress />
     </Layout>
