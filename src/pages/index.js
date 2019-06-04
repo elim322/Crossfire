@@ -2,11 +2,11 @@ import React from "react"
 import { MuiThemeProvider } from "@material-ui/core/styles"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Cast from "../components/cast"
-import Contact from "../components/contact"
-import Trailer from "../components/trailer"
-import StoryLine from "../components/storyline"
-import InProgress from "../components/inprogress"
+import Cast from "../components/Cast/cast"
+import Contact from "../components/Contact/contact"
+import Trailer from "../components/Trailer/trailer"
+import StoryLine from "../components/StoryLine/storyline"
+import InProgress from "../components/InProgress/inprogress"
 
 const IndexPage = () => (
   <MuiThemeProvider>
