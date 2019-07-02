@@ -1,7 +1,6 @@
 import React, { Component } from "react"
-import Helmet from "react-helmet"
 import YouTube from "react-youtube"
-import "./video.css"
+import Helmet from "react-helmet"
 
 class Video extends Component {
   constructor(props) {
@@ -30,17 +29,19 @@ class Video extends Component {
 
     return (
       <div>
-        <div id="wrapper" />
+        <Helmet>
+          <title>Crossfire</title>
+        </Helmet>
+
         <div className="video-background">
-          <div className="video-foreground">
-            <YouTube
-              videoId="Z6FPJOgfCkc"
-              opts={videoOptions}
-              className="video-iframe"
-              onReady={this._onReady}
-              onEnd={this._onEnd}
-            />
-          </div>
+          <YouTube
+            videoId="Z6FPJOgfCkc"
+            opts={videoOptions}
+            className="video-iframe"
+            onReady={this._onReady}
+            onEnd={this._onEnd}
+          />
+          <div className="video-foreground" />
         </div>
       </div>
     )

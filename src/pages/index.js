@@ -1,25 +1,25 @@
 import React from "react"
-import { MuiThemeProvider } from "@material-ui/core/styles"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Cast from "../components/Cast/cast"
-import Contact from "../components/Contact/contact"
-import Trailer from "../components/Trailer/trailer"
-import StoryLine from "../components/StoryLine/storyline"
-import InProgress from "../components/InProgress/inprogress"
+import Cast from "../components/cast"
+import Contact from "../components/contact"
+import Production from "../components/production"
+import Video from "../components/video"
 
 const IndexPage = () => (
-  <MuiThemeProvider>
-    <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
-      <Trailer />
+  <Layout>
+    <section id="section1" className="trailer">
+      <Video />
+    </section>
+    <section id="section2" className="cast">
       <Cast />
+    </section>
+    <section id="section3" className="production">
+      <Production />
+    </section>
+    <section id="section4" className="contact">
       <Contact />
-      <StoryLine />
-      <InProgress />
-    </Layout>
-  </MuiThemeProvider>
+    </section>
+  </Layout>
 )
 
 export default IndexPage
