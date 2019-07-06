@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
-import "./layout.scss"
+import "../assets/scss/layout/layout.scss"
 import "../assets/scss/main.scss"
 
 const Layout = ({ children }) => (
