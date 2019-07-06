@@ -1,5 +1,8 @@
 .navbar {
   background-color: #b5213a;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
   .navbar-elements {
     margin: 0 auto;
     display: flex;
