@@ -1,0 +1,21 @@
+.navbar {
+  background-color: rebeccapurple;
+  margin-bottom: 1.45rem;
+  .navbar-elements {
+    margin: 0 auto;
+    padding: 1.45rem, 1.0875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .site-title {
+      margin: 0;
+      color: white;
+      text-decoration: none;
+    }
+    .navbar-title {
+      margin: 0;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

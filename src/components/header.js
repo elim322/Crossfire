@@ -3,22 +3,9 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        padding: `1.45rem 1.0875rem`,
-        display: `flex`,
-        flexDirection: `row`,
-        justifyContent: `space-between`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <header className="navbar">
+    <div className="navbar-elements">
+      <h1 className="site-title">
         <Link
           to="/"
           style={{
@@ -29,7 +16,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="navbar-title" style={{ margin: 0 }}>
         <Link
           to="trailer/"
           style={{
@@ -40,18 +27,7 @@ const Header = ({ siteTitle }) => (
           Trailer
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="storyline/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          Story Line
-        </Link>
-      </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="navbar-title" style={{ margin: 0 }}>
         <Link
           to="cast/"
           style={{
@@ -62,7 +38,7 @@ const Header = ({ siteTitle }) => (
           Cast
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="navbar-title" style={{ margin: 0 }}>
         <Link
           to="inprogress/"
           style={{
@@ -70,10 +46,10 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          In Progress
+          Production
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="navbar-title" style={{ margin: 0 }}>
         <Link
           to="contact/"
           style={{
@@ -84,7 +60,7 @@ const Header = ({ siteTitle }) => (
           Contact
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="navbar-title" style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -108,3 +84,5 @@ Header.defaultProps = {
 }
 
 export default Header
+
+
