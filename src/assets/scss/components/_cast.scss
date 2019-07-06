@@ -1,4 +1,21 @@
 .cast {
-  height: 85vh;
-  width: 85vw;
+  height: 200vh;
+  max-width: 85vw;
+}
+.cast-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  .member {
+    padding-left: 20px;
+    p {
+      margin-bottom: 0;
+    }
+    .cast-image {
+      height: 200px;
+      width: 200px;
+      margin-bottom: 0;
+    }
+  }
 }
