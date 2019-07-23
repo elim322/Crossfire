@@ -1,6 +1,10 @@
 .cast {
   height: 200vh;
   max-width: 85vw;
+  background: black;
+}
+.cast-title {
+  color: white;
 }
 .cast-list {
   display: flex;
@@ -11,6 +15,7 @@
     padding-left: 20px;
     p {
       margin-bottom: 0;
+      color: white;
     }
     .cast-image {
       height: 200px;
