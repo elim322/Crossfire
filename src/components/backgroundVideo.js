@@ -19,9 +19,6 @@ class RainBackground extends Component {
         controls: 0,
         rel: 0,
         showinfo: 0,
-        fs: 0,
-        loop: 1,
-        modestbranding: 1,
       },
     }
 
