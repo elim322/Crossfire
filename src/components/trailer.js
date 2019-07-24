@@ -6,6 +6,7 @@ const Trailer = ({ classes }) => {
     <>
       <div>
         <Video />
+        <button type="button">Mute</button>
       </div>
     </>
   )
