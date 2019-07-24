@@ -1,7 +1,9 @@
 import React from "react"
+import RainBackground from "./backgroundVideo"
 
 const Cast = () => (
   <React.Fragment>
+    <RainBackground />
     <div className="cast-title">
       <h1> Our Amazing Cast</h1>
     </div>
