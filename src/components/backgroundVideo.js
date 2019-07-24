@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import YouTube from "react-youtube"
-import Helmet from "react-helmet"
 
 class RainBackground extends Component {
   constructor(props) {
@@ -10,10 +9,6 @@ class RainBackground extends Component {
   _onReady(event) {
     // access to player in all event handlers via event.target
     // event.target.mute()
-  }
-
-  _onEnd(event) {
-    event.target.playVideo()
   }
 
   render() {
