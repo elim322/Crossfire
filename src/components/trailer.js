@@ -1,6 +1,6 @@
 import React, { Component } from "react"
-import Helmet from "React-Helmet"
-import YouTube from "React-Youtube"
+import Helmet from "react-helmet"
+import YouTube from "react-youtube"
 
 class Trailer extends Component {
   constructor(props) {
