@@ -3,12 +3,12 @@ import Layout from "../components/layout"
 import Cast from "../components/cast"
 import Contact from "../components/contact"
 import Production from "../components/production"
-import Video from "../components/video"
+import Trailer from "../components/trailer"
 
 const IndexPage = () => (
   <Layout>
     <section id="section1" className="trailer">
-      <Video />
+      <Trailer />
     </section>
     <section id="section2" className="cast">
       <Cast />
