@@ -33,6 +33,10 @@ class Trailer extends Component {
           <title>Crossfire</title>
         </Helmet>
 
+        <div className="video-mute">
+          <button className="mute-button">Mute</button>
+        </div>
+
         <div className="video-background">
           <YouTube
             videoId="ERf45Wv0Yus"

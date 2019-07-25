@@ -39,7 +39,7 @@ class Cast extends Component {
           <div className="rain-foreground" />
         </div>
         <div className="cast-title">
-          <h1> Our Amazing Cast</h1>
+          <h1 className="cast-title-box"> Our Amazing Cast</h1>
         </div>
         <div className="cast-list">
           <div className="member">
