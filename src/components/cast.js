@@ -28,7 +28,7 @@ class Cast extends Component {
     }
     return (
       <div>
-        <div className="video-background">
+        <div className="rain-background">
           <YouTube
             videoId="YZAcLlKsc5I"
             opts={videoOptions}
@@ -36,7 +36,7 @@ class Cast extends Component {
             onReady={this._onReady}
             onEnd={this._onEnd}
           />
-          <div className="video-foreground" />
+          <div className="rain-foreground" />
         </div>
         <div className="cast-title">
           <h1> Our Amazing Cast</h1>
