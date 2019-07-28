@@ -1,16 +1,30 @@
 .cast {
   height: 200vh;
-  max-width: 85vw;
+  width: 100%;
+}
+.cast-title {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  .cast-title-box {
+    background-color: #b5213a;
+    padding: 1rem 2rem;
+  }
 }
 .cast-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin: 0 auto;
+  width: 80%;
   .member {
-    padding-left: 20px;
+    padding-left: 3rem;
     p {
       margin-bottom: 0;
+      color: white;
     }
     .cast-image {
       height: 200px;

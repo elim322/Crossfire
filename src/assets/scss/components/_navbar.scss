@@ -7,12 +7,20 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 80%;
+    .scroll-targets {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 30%;
+    }
     .site-title {
       margin: auto 0;
       color: white;
       text-decoration: none;
       font-size: 1rem;
+      font-style: italic;
     }
     .navbar-title {
       margin: auto 0;
