@@ -1,8 +1,9 @@
 import React from "react"
+import ProductionListItem from "./ProductionList/"
 
 const Production = () => (
   <>
-    <h1>Production</h1>
+    <h1>From the Director</h1>
   </>
 )
 

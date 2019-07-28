@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Cast from "../components/cast"
 import Contact from "../components/contact"
-import Production from "../components/production"
+import Production from "../components/production/"
 import Video from "../components/video"
 
 const IndexPage = () => (
