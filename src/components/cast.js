@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import YouTube from "react-youtube"
 
 class Cast extends Component {
   constructor(props) {
@@ -7,36 +6,11 @@ class Cast extends Component {
     this.state = {}
   }
 
-  _onReady(event) {
-    // access to player in all event handlers via event.target
-    // event.target.mute()
-    event.target.playVideo()
-  }
-
-  _onEnd(event) {
-    event.target.playVideo()
-  }
   render() {
-    const videoOptions = {
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
-        controls: 0,
-        rel: 0,
-        showinfo: 0,
-      },
-    }
     return (
       <div>
         <div className="rain-background">
-          <YouTube
-            videoId="YZAcLlKsc5I"
-            opts={videoOptions}
-            className="video-iframe"
-            onReady={this._onReady}
-            onEnd={this._onEnd}
-          />
-          <div className="rain-foreground" />
+          <img src={require("../assets/images/rain-background-large.gif")} />
         </div>
         <div className="cast-title">
           <h1 className="cast-title-box"> Our Amazing Cast</h1>
