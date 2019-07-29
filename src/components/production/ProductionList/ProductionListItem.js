@@ -8,9 +8,13 @@ const ProductionListItem = props => {
         props.toggleModal()
       }}
     >
-      <h1> title </h1>
+      <h1>{props.post.title}</h1>
       <p> subtitle </p>
-      {props.isModalOpen && <ModalComponent toggleModal={props.toggleModal} />}
+      {props.isModalOpen && (
+        <ModalComponent toggleModal={props.toggleModal} post={props.post}>
+          {props.post.content}
+        </ModalComponent>
+      )}
     </div>
   )
 }
