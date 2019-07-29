@@ -1,0 +1,57 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  // display: none;
+
+  .modalBody {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    background-color: $crossfire-red-opacity;
+
+    padding: 2rem;
+
+    .modalImage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-basis: 55%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .modalContent {
+      margin-left: 1rem;
+      flex-basis: 45%;
+      overflow-y: scroll;
+      text-align: justify;
+    }
+
+    // Small breakpoint and up
+    @media (min-width: $small-device) {
+      height: 60%;
+    }
+    @media (min-width: $med-device) {
+      height: 65%;
+    }
+
+    @media (min-width: $large-device) {
+      height: 75%;
+    }
+
+    @media (min-width: $xlarge-device) {
+      height: 80%;
+    }
+  }
+}
