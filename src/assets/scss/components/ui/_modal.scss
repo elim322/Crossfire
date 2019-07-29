@@ -6,7 +6,6 @@
   height: 100%;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
-  // display: none;
 
   .modalBody {
     display: flex;
@@ -36,6 +35,17 @@
       flex-basis: 45%;
       overflow-y: scroll;
       text-align: justify;
+    }
+
+    .closeButtonDiv {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .closeButtonIcon {
+      width: 20%;
+      z-index: 1;
     }
 
     // Small breakpoint and up

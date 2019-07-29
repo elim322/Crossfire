@@ -2,8 +2,8 @@ import React, { Component } from "react"
 import ProductionListItem from "./ProductionListItem"
 
 export default class ProductionListContainer extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       isModalOpen: false,
     }
@@ -23,6 +23,7 @@ export default class ProductionListContainer extends Component {
       <ProductionListItem
         toggleModal={this.toggleModal}
         isModalOpen={this.state.isModalOpen}
+        post={this.props.post}
       />
     )
   }
