@@ -1,10 +1,16 @@
 import React from "react"
+import ModalComponent from "../../ui/ModalComponent"
 
-const ProductionListItem = () => {
+const ProductionListItem = props => {
   return (
-    <div>
+    <div
+      onClick={() => {
+        props.toggleModal()
+      }}
+    >
       <h1> title </h1>
       <p> subtitle </p>
+      {props.isModalOpen && <ModalComponent toggleModal={props.toggleModal} />}
     </div>
   )
 }
