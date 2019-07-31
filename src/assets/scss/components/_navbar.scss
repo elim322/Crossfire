@@ -3,6 +3,10 @@
   position: fixed;
   width: 100%;
   overflow: hidden;
+  .navIcon {
+    height: 50px;
+    width: 50px;
+  }
   .navbar-elements {
     margin: 0 auto;
     display: flex;
@@ -28,6 +32,7 @@
       color: white;
       .nav-link {
         text-decoration: none;
+        color: #fff;
       }
       p {
         margin-top: 1.45rem;
