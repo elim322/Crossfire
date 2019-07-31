@@ -1,31 +1,32 @@
 import React, { Component } from "react"
 import Helmet from "react-helmet"
-import YouTube from "react-youtube"
+import ReactPlayer from "react-player"
 
 class Trailer extends Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      url: null,
+      pip: false,
+      playing: true,
+      controls: false,
+      light: false,
+      volume: 0.8,
+      muted: false,
+      played: 0,
+      loaded: 0,
+      duration: 0,
+      playbackRate: 1.0,
+      loop: true,
+    }
   }
-  _onReady(event) {
-    // access to player in all event handlers via event.target
-    // event.target.mute()
-    event.target.playVideo()
-  }
-  _onEnd(event) {
-    event.target.playVideo()
+
+  toggleMuted = () => {
+    this.setState({ muted: !this.state.muted })
   }
 
   render() {
-    const videoOptions = {
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
-        controls: 0,
-        rel: 0,
-        showinfo: 0,
-      },
-    }
+    const { url, playing, controls, volume, muted } = this.state
 
     return (
       <div>
@@ -34,18 +35,21 @@ class Trailer extends Component {
         </Helmet>
 
         <div className="video-mute">
-          <button className="mute-button">Mute</button>
+          <button
+            controls
+            onClick={this.toggleMuted}
+            className="mute-button"
+          ></button>
         </div>
 
-        <div className="video-background">
-          <YouTube
-            videoId="ERf45Wv0Yus"
-            opts={videoOptions}
-            className="video-iframe"
-            onReady={this._onReady}
-            onEnd={this._onEnd}
+        <div>
+          <ReactPlayer
+            className="trailer-background"
+            url="https://www.youtube.com/watch?feature=youtu.be&v=ERf45Wv0Yus&app=desktop"
+            playing
+            loop
+            muted={muted}
           />
-          <div className="video-foreground" />
         </div>
       </div>
     )
