@@ -1,6 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
+import Countdown from "react-countdown-now"
 
 const Header = ({ siteTitle }) => (
   <header className="navbar">
@@ -31,8 +32,15 @@ const Header = ({ siteTitle }) => (
         </h1>
       </div>
       <h1 className="navbar-title">
-        <p className="nav-link">Premier: 00 : 00 : 00</p>
+        <p>
+          Premiere:{" "}
+          <Countdown className="nav-link" date={Date.now() + 777600000} />
+        </p>
       </h1>
+      <img
+        src={require("../assets/images/instagram.png")}
+        className="navIcon"
+      />
     </div>
   </header>
 )
