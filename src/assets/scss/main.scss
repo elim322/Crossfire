@@ -1,15 +1,5 @@
-// @include skel-breakpoints(
-//   (
-//     xlarge: "(max-width: 1680px)",
-//     large: "(max-width: 1280px)",
-//     medium: "(max-width: 980px)",
-//     small: "(max-width: 736px)",
-//     xsmall: "(max-width: 480px)",
-//     xxsmall: "(max-width: 360px)",
-//   )
-// );
 // Layout (Base theme)
-@import "layout/layout";
+@import "layout/_index";
 
 // Crossfire Configuration overrides
 @import "config/brand";
@@ -23,7 +13,7 @@
 @import "components/video.scss";
 @import "components/trailer.scss";
 @import "components/cast.scss";
-@import "components/production/";
+@import "components/production/_index";
 @import "components/contact.scss";
 @import "components/navbar.scss";
 @import "components/mixins.scss";

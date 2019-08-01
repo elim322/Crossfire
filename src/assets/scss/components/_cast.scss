@@ -3,14 +3,9 @@
   width: 100%;
 }
 .cast-title {
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  width: 80%;
-  margin: 0 auto;
+  @extend .center-title;
   .cast-title-box {
-    background-color: #b5213a;
-    padding: 1rem 2rem;
+    @extend .title-box;
   }
 }
 .cast-list {

@@ -11,7 +11,7 @@ const ProductionListItem = props => {
       <h1>{props.post.title}</h1>
       <p> subtitle </p>
       {props.isModalOpen && (
-        <ModalComponent toggleModal={props.toggleModal} post={props.post}>
+        <ModalComponent toggleModal={props.toggleModal}>
           <div className="modalImage">
             <img
               src={require(`../../../assets/images/blog/post${props.post.num}.jpg`)}

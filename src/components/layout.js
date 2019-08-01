@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
-import "../assets/scss/layout/layout.scss"
 import "../assets/scss/main.scss"
 
 if (typeof window !== "undefined") {
@@ -32,7 +31,7 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
-          <main>{children}</main>
+          <main className="main">{children}</main>
           <footer>
             © {new Date().getFullYear()}, Built by AJ Aguasin, Einer Lim, and
             Timothy Chan

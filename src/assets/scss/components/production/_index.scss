@@ -1,0 +1,6 @@
+.production-title {
+  @extend .center-title;
+  .production-title-box {
+    @extend .title-box;
+  }
+}
