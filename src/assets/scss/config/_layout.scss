@@ -7,3 +7,18 @@ body {
     filter: blur(2px);
   }
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-title {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  .title-box {
+    background-color: $crossfire-red;
+    padding: 1rem 2rem;
+  }
+}

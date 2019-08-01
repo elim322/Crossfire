@@ -7,9 +7,9 @@ const ProductionListItem = props => {
       onClick={() => {
         props.toggleModal()
       }}
+      className="blog-posts"
     >
       <h1>{props.post.title}</h1>
-      <p> subtitle </p>
       {props.isModalOpen && (
         <ModalComponent toggleModal={props.toggleModal}>
           <div className="modalImage">
