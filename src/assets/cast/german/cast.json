@@ -1,0 +1,160 @@
+{
+  "cast": [
+    {
+      "num": 1,
+      "name": "John Brandt",
+      "role": "Regie, Auto, Schnitt",
+      "bio": "Aufstrebender Filmemacher aus Thailand, der momentan digital film production am SAE Instittut studiert."
+    },
+    {
+      "num": 2,
+      "name": "Christian Schwarz",
+      "role": "Produzent, Aufnahmeleitung, Komparsen Polizist",
+      "bio": "Angehender Produzent und Filmemacher aus Saarbrücken, Deutschland."
+    },
+    {
+      "num": 3,
+      "name": "Jeremy Tang",
+      "role": "Autor, Skript Continuity",
+      "bio": "Jeremy ist ein Medizinstudent aus Lester, UK. Er hat Ambitionen Autor zu werden."
+    },
+    {
+      "num": 4,
+      "name": "Konstantin König",
+      "role": "Autor, Komparsen Barkeeper",
+      "bio": "Kontstantin kommt aus dem Schauspiel Bereich und fuhlt sich am wohlsten beim Schreiben und Regie führen"
+    },
+    {
+      "num": 5,
+      "name": "Max Heibges",
+      "role": "Daniel (Alterer Bruder)",
+      "bio": "26 Jahre alt und voller Motivation. Max kommt ursprünglich aus dem MusicalTheater Bereich und studiert momentan an der IAF Schauspielschule in Köln. Immer gut drauf. Es schaudert einen fast schon, wie er seinen Charakter spielt."
+    },
+    {
+      "num": 6,
+      "name": "Marvin José dos Santos Ramos",
+      "role": "Chris (Jungerer Bruder)",
+      "bio": "Marvin ist ein außergewöhnliches Schauspieltalent, bei dem die Fähigkeit aus dem Herzen zu spielen, seine Hingabe und harte Arbeit besonders heraus stechen. Er wendet diese Arbeitsmoral auch auf sein Leben an und versucht jeden Tag, die beste Version von sich zu sein.Er spielt die Rolle von Chris. Der glückliche kleine Bruder."
+    },
+    {
+      "num": 7,
+      "name": "Tom Leucht",
+      "role": "Richard (Vater)",
+      "bio": "46-Jahre alter Schauspieler, Model und außerdem Restaurant Manager. Tom hat Erfahrung in verschiedenen Soaps, Reality TV und Spielfilmen. Er lebt gerne frei und bringt ein Lächeln in jede Konversation. Er wird unseren Antagonisten, Richard spielen, den kontrollierenden Vater und Polizeichef."
+    },
+    {
+      "num": 8,
+      "name": "Lisa Studtmann",
+      "role": "Jessica",
+      "bio": "Nachdem Sie jahrelang hinter der Kamera gearbeitet hat, hat Lisa Ihren Weg vor die Kamera gefunden und ist Schauspielerin im 2. Semester an der IAF Schauspielschule in Köln. Sie wird Jessica spielen, die weibliche Hauptrolle."
+    },
+    {
+      "num": 9,
+      "name": "Stephany Kahl",
+      "role": "Mutter",
+      "bio": "Stephany Kahl wird die Mutter spielen. Sie hat mit Tom Leucht schon öfter zusammen gearbeitet und ist unerlässlich für den Erfolg des Projekts"
+    },
+    {
+      "num": 10,
+      "name": "Clemens Vesper",
+      "role": "DOP",
+      "bio": "Technik begabt und ein sehr ruhiges Händchen. Clemens ist nicht nur ein tslentierter Filmemacher, sondern auch einer der hilfsbereitesten Menschen die du am Set kennen lernen wirst. Er kennt die Gegebenheiten der meisten Kameras in der Industrie und ist fähig das Department zu leiten. Seine harte Arbeit wird von vielen Beneidet, die behaupten er läuft nur mit Energz Drinks und Salzstangen."
+    },
+    {
+      "num": 11,
+      "name": "Jonas Brans",
+      "role": "1st Kamera asistant",
+      "bio": "Das jüngste Crew Mitglied, aber auch einer der Verlässlichsten. Jonas ist jemand den du an jedem Set willst. Sehr hilfsbereit und gut gelaunt. Jeder, der ihn kennen lernt schätzt seine Freundlichkeit."
+    },
+    {
+      "num": 12,
+      "name": "Markus Schmitz",
+      "role": "2nd Kamera asistant",
+      "bio": "Markus ist der lustigste Mensch am Set. Seine Präsenz ist allein schon sehr wichtig für das Team. Er ist extrem hilfreich und flexibel. Er kann jede Rolle im Bereich Kamera ohne Probleme übernehmen"
+    },
+    {
+      "num": 13,
+      "name": "Laura Trapp",
+      "role": "Oberbeleuchterin",
+      "bio": "Laura hat sehr viel Ahnung von der technischen Seite des Filmemachens. Außerdem kann Sie die Leute Führen und Anleiten."
+    },
+    {
+      "num": 14,
+      "name": "Leon Marx",
+      "role": "Licht asistant",
+      "bio": "No Bio."
+    },
+    {
+      "num": 15,
+      "name": "Victor Manuel Villafuerte",
+      "role": "Licht asistant",
+      "bio": "No Bio."
+    },
+    {
+      "num": 16,
+      "name": "Michael Ossendorf",
+      "role": "Grip",
+      "bio": "No Bio."
+    },
+    {
+      "num": 17,
+      "name": "Jannik Jakob",
+      "role": "Ton aufnahme, Ton Ingenieur",
+      "bio": "Ihr meint Lighting McQueen? Fröhlich und aufgedreht. Jannik ist ein ein mann Team. Der schnellste Tonmeister und eine der motivierendsten Personen am Set. “Yes, no Problem” ist sein Lieblingssatz."
+    },
+    {
+      "num": 18,
+      "name": "Dawyd Potozky",
+      "role": "Ton asistant",
+      "bio": "Dawyd war unser Tonangler am letzten Tag, er ist ernster und ein mann weniger Worte, aber auch jemand der immer da ist, wenn er gebraucht wird"
+    },
+    {
+      "num": 19,
+      "name": "Almut Viertel",
+      "role": "Maske",
+      "bio": "No Bio."
+    },
+    {
+      "num": 20,
+      "name": "Katherina Lenz",
+      "role": "Maske",
+      "bio": "No Bio."
+    },
+    {
+      "num": 21,
+      "name": "Hojin Noh",
+      "role": "Logistik",
+      "bio": "Hojin ist ein hart arbeitendes Mitglied der Crew. Meistens findest du ihn am Set umherwandern um überall zu helfen, wo er gebraucht wird. Für ihn ist es schwer, still zu stehen."
+    },
+    {
+      "num": 22,
+      "name": "Marius Holzstein",
+      "role": "Sterunner",
+      "bio": "No Bio."
+    },
+    {
+      "num": 23,
+      "name": "Christian Vetter",
+      "role": "Sterunner, VFX",
+      "bio": "No Bio."
+    },
+    {
+      "num": 24,
+      "name": "Timothy Chan",
+      "role": "Sterunner/User Experience Designer",
+      "bio": "Ein User Experience Designer und ein Highschool-Freund von John Brandt, der Crossfire unterstützen wollte."
+    },
+    {
+      "num": 25,
+      "name": "Dirk Ostermann",
+      "role": "SFX",
+      "bio": "Mit vielen Jahren Erfahrung im Bereich Special Effects für große Filme, Musik Festivals und TV Shows, ist er wie ein verrückter Wissenschaftler im CFX SFX Studio in Deutz. Er ist extrem Engagiert und charismatisch. Außerdem gibt er dir eine Tour durch seine Werkstatt, wenn du ihn besuchst."
+    },
+    {
+      "num": 26,
+      "name": "Francesco D’amico",
+      "role": "Colorist",
+      "bio": "Keine Spiele, nur Arbeit ist der erste Eindruck, den jeder bei diesem Interlektuellen bekommt. Francesco ist sehr deutlich, wenn es um seine zukünftigen Ambitionen als Cutter oder Colorist geht. Und er arbeitet hart um das zu erreichen. Sag einfach, dass DaVinci besser ist, als jedes andere Programm und sein herz gehört dir."
+    }
+  ]
+}

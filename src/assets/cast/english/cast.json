@@ -1,0 +1,160 @@
+{
+  "cast": [
+    {
+      "num": 1,
+      "name": "John Brandt",
+      "role": "Director, Author, Editor",
+      "bio": "Aspiring filmmaker from Thailand, that is currently studying digital film production at the SAE institute Cologne, Germany."
+    },
+    {
+      "num": 2,
+      "name": "Christian Schwarz",
+      "role": "Producer, Set manager, Cameo Police officer",
+      "bio": "Up and coming producer and filmmaker from Saarbrucken, Germany."
+    },
+    {
+      "num": 3,
+      "name": "Jeremy Tang",
+      "role": "Author, Script supervisor",
+      "bio": "Jeremy is a Medicine student in Lester, United Kingdom. He has aspirations to become a writer aswell."
+    },
+    {
+      "num": 4,
+      "name": "Konstantin König",
+      "role": "Author, Cameo Barkeeper",
+      "bio": "Konstantin has an acting background and finds himself most comfortable in writing and directing."
+    },
+    {
+      "num": 5,
+      "name": "Max Heibges",
+      "role": "Daniel (Older brother)",
+      "bio": "26 yearold and full of ambition. Max has a background in musical, Theater and is currently studying acting at the IAF acting school Cologne. Always kind and uplifting. It is almost frightening when he portrays his character; the dangerous Daniel."
+    },
+    {
+      "num": 6,
+      "name": "Marvin José dos Santos Ramos",
+      "role": "Chris (Younger brother)",
+      "bio": "Marvin is an incredible acting talent, that shines through the abillity to give heart felt performances and his dedication and hardwork that he invest into the art. He applies the same work ethic to his life; to make sure that everyday he is always the best version of himself. He will be playing the role Chris, The fortunate little brother."
+    },
+    {
+      "num": 7,
+      "name": "Tom Leucht",
+      "role": "Richard (Father)",
+      "bio": "46 year old actor, model and currently also a restaurant manager. Tom has experince in various soaps, Reality TV shows and feature length films. He likes to live life freely and bring a smile to every conversation. He will be reading for our antagonist; Richard, The overbearing father, and chief of police."
+    },
+    {
+      "num": 8,
+      "name": "Lisa Studtmann",
+      "role": "Jessica",
+      "bio": "After spending many years working behind the camera. Lisa has found her spotlight infront of the camera and is now a 2nd year student at the IAF acting school Cologne. She will be playing Jessica, our lead female role."
+    },
+    {
+      "num": 9,
+      "name": "Spiridon Himbis",
+      "role": "Mother",
+      "bio": "First joined the project as a behind the scenes photographer. Spiridon is a young and ambitious writing and directing talent. He has proven himself as someone much more suited for a directing role than anyone. He not only can execute great projects, but he also treats each individual ones as someothing more. You will often find him always giving feedback to the actors and warming them up for each takes. He is a valuable part of our team."
+    },
+    {
+      "num": 10,
+      "name": "Clemens Vesper",
+      "role": "Director of Photography",
+      "bio": "Tech savy and real steady. Clemens is not only a talented filmmaker, but also one of the kindest and most helpful person you will meet on set. He knows the ins and outs of most cameras in the industry and has the capabilities to lead his department. His hardwork ethic is envied by many, whom spread teh rumors that he purely runs on energy drinks and pretzel sticks."
+    },
+    {
+      "num": 11,
+      "name": "Jonas Brans",
+      "role": "1st Camera asistant",
+      "bio": "Youngest crew member, but also one of the most capable. Jonas is someone you would want on every set. Extremely helpful and cheerful. His friendliness is appreciated by everyone he meets."
+    },
+    {
+      "num": 12,
+      "name": "Markus Schmitz",
+      "role": "2nd Camera asistant",
+      "bio": "Markus is the funniest man on set, period, His presence on set is something very valuable to the team. He is extremely helpful and flexible. He can fit into every single role on the crew list with ease."
+    },
+    {
+      "num": 13,
+      "name": "Laura Trapp",
+      "role": "Gaffer",
+      "bio": "Laura is very knowledgeable when it comes to the technical aspect of filmmaking. She is also has a strong sense of leadership and will set people straight."
+    },
+    {
+      "num": 14,
+      "name": "Leon Marx",
+      "role": "Lighting technician",
+      "bio": "No Bio."
+    },
+    {
+      "num": 15,
+      "name": "Victor Manuel Villafuerte",
+      "role": "Lighting technician",
+      "bio": "No Bio."
+    },
+    {
+      "num": 16,
+      "name": "Michael Ossendorf",
+      "role": "Grip",
+      "bio": "No Bio."
+    },
+    {
+      "num": 17,
+      "name": "Jannik Jakob",
+      "role": "Sound recorder, Sound engineer",
+      "bio": "You mean lighting McQueen? Cheerful and spunky. Jannik is a one man team. The fastest sound guy in the west, and also the most uplifting person on set. “Yes, no problem” is his favourite English line."
+    },
+    {
+      "num": 18,
+      "name": "Dawyd Potozky",
+      "role": "Sound asistant",
+      "bio": "Dawyd was our sound recorder on the last day. He is a no bullshit guy, and a man of little words, but someone who will always be there when he is needed."
+    },
+    {
+      "num": 19,
+      "name": "Almut Viertel",
+      "role": "Make up artist",
+      "bio": "No Bio."
+    },
+    {
+      "num": 20,
+      "name": "Katherina Lenz",
+      "role": "Make up artist",
+      "bio": "No Bio."
+    },
+    {
+      "num": 21,
+      "name": "Hojin Noh",
+      "role": "Logistics",
+      "bio": "Hojin is a hardworking member of the crew. You will often find him wandering around set to help out with every little task, as he finds it hard to stay still. He has proven to be a hardworking member of the team."
+    },
+    {
+      "num": 22,
+      "name": "Marius Holzstein",
+      "role": "Setrunner",
+      "bio": "No Bio."
+    },
+    {
+      "num": 23,
+      "name": "Christian Vetter",
+      "role": "Setrunner, VFX designer",
+      "bio": "No Bio."
+    },
+    {
+      "num": 24,
+      "name": "Timothy Chan",
+      "role": "Setrunner/User Experience Designer",
+      "bio": "An User Experience Designer, and a high school friend of John Brandt, who wanted to support Crossfire."
+    },
+    {
+      "num": 25,
+      "name": "Dirk Ostermann",
+      "role": "SFX",
+      "bio": "With many years of experience doing special effects for major films, music festivals and TV shows. He is like a mad scientist at the CFX SFX studio Deutz. He is extremly passionated and charismatic, and he will… give you a tour of his cool workshop if you visit."
+    },
+    {
+      "num": 26,
+      "name": "Francesco D’amico",
+      "role": "Colorist",
+      "bio": "No games, just business is the first impression everyone gets from this interllectual. Francesco is very clear about his future ambition as a cutter and a colorist, and is working hard to acheive his goals. Just say that Davinci is better than any other editing program, and you’ll win his heart"
+    }
+  ]
+}
