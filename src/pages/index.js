@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Cast from "../components/cast"
+import Cast from "../components/cast/cast"
 import Contact from "../components/contact"
 import Production from "../components/production/"
 import Trailer from "../components/trailer"

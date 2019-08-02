@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import ProductionListItem from "./ProductionListItem"
+import CastListItem from "./CastListItem"
 
-export default class ProductionListContainer extends Component {
+export default class CastListContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -20,7 +20,7 @@ export default class ProductionListContainer extends Component {
 
   render() {
     return (
-      <ProductionListItem
+      <CastListItem
         toggleModal={this.toggleModal}
         isModalOpen={this.state.isModalOpen}
         post={this.props.post}
