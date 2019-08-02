@@ -7,7 +7,7 @@ const CastListItem = props => {
       onClick={() => {
         props.toggleModal()
       }}
-      className="blog-posts"
+      className="cast-members"
     >
       <div className="cast-list">
         <div className="member">

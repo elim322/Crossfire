@@ -10,9 +10,11 @@ const Cast = () => (
     <div className="cast-title">
       <h1 className="cast-title-box"> Our Amazing Cast</h1>
     </div>
-    {cast.cast.map(cast => {
-      return <CastListItem key={cast.num} cast={cast} />
-    })}
+    <div className="cast-block">
+      {cast.cast.map(cast => {
+        return <CastListItem key={cast.num} cast={cast} />
+      })}
+    </div>
   </div>
 )
 

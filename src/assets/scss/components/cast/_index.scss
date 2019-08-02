@@ -1,0 +1,46 @@
+.cast {
+  height: 200vh;
+  width: 100%;
+}
+.cast-title {
+  @extend .center-title;
+  .cast-title-box {
+    @extend .title-box;
+  }
+}
+.cast-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  .cast-members {
+    width: 20%;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+
+    &:hover {
+      background-color: $animation-green;
+    }
+    .cast-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin: 0 auto;
+      width: 80%;
+      .member {
+        p {
+          margin-bottom: 0;
+          color: white;
+        }
+        .cast-image {
+          height: 200px;
+          width: 200px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
