@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import CastListItem from "./CastList/"
 import cast from "../../assets/cast/english/cast.json"
 

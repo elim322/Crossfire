@@ -23,7 +23,7 @@ export default class CastListContainer extends Component {
       <CastListItem
         toggleModal={this.toggleModal}
         isModalOpen={this.state.isModalOpen}
-        post={this.props.post}
+        cast={this.props.cast}
       />
     )
   }
