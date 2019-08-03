@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
 import Countdown from "react-countdown-now"
+import i18next from "i18next"
 
 const Header = ({ siteTitle }) => (
   <header className="navbar">
