@@ -15,9 +15,9 @@ const Cast = () => (
       {cast.cast.map(cast => {
         return <CastListItem key={cast.num} cast={cast} />
       })}
-      {de_cast.cast.map(cast => {
+      {/* {de_cast.cast.map(cast => {
         return <CastListItem key={cast.num} cast={cast} />
-      })}
+      })} */}
     </div>
   </div>
 )
