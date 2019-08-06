@@ -1,8 +1,9 @@
 import PropTypes from "prop-types"
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import Countdown from "react-countdown-now"
-import { Translator } from "../components/ui/LanguageComponent"
+import Translator from "../components/ui/LanguageComponent"
+import { TranslationContext } from "../components/context/TranslationContext"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -39,12 +40,18 @@ const Header = ({ siteTitle }) => {
             <Countdown className="nav-link" date={Date.now() + 777600000} />
           </p>
         </h1>
-        <div>
+        <div className="buttons">
           <img
             src={require("../assets/images/instagram.png")}
             className="navIcon"
           />
-          <Translator />
+          <TranslationContext.Consumer>
+            {({ handleSubmit }) => (
+              <button>
+                <Translator onClick={handleSubmit} />
+              </button>
+            )}
+          </TranslationContext.Consumer>
         </div>
       </div>
     </header>

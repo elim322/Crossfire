@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 
-const TranslationContext = React.createContext()
+export const TranslationContext = React.createContext()
 
-export class TranslationProvider extends Component {
+export default class TranslationProvider extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -23,5 +23,3 @@ export class TranslationProvider extends Component {
     )
   }
 }
-
-export const TranslationConsumer = TranslationContext.Consumer

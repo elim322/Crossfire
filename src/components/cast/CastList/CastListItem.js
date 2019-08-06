@@ -1,6 +1,5 @@
 import React from "react"
 import ModalComponent from "../../ui/ModalComponent"
-import cast from "../../../assets/cast/english/cast"
 
 const CastListItem = props => {
   return (
@@ -14,10 +13,10 @@ const CastListItem = props => {
         <div className="member">
           <img
             className="cast-image"
-            src={require(`../../../assets/images/cast/cast${cast.num}.jpeg`)}
+            src={require(`../../../assets/images/cast/cast${props.cast.num}.jpeg`)}
           />
-          <p className="cast-name">{cast.name}</p>
-          <p className="cast-role">{cast.role}</p>
+          <p className="cast-name">{props.cast.name}</p>
+          <p className="cast-role">{props.cast.role}</p>
         </div>
       </div>
       {props.isModalOpen && (
@@ -30,8 +29,8 @@ const CastListItem = props => {
           <div className="modalContent">
             {" "}
             <h1>{props.cast.name}</h1>
-            <p>{cast.role}</p>
-            <p>{cast.bio}</p>
+            <p>{props.cast.role}</p>
+            <p>{props.cast.bio}</p>
           </div>
           <div className="closeButtonDiv"></div>
         </ModalComponent>
