@@ -3,9 +3,15 @@ import CastListItem from "./CastList/"
 import cast from "../../assets/cast/english/cast.json"
 import de_cast from "../../assets/cast/german/cast.json"
 import { TranslationContext } from "../context/TranslationContext"
+import Translator from "../ui/LanguageComponent"
 
 const Cast = () => (
   <div>
+    <TranslationContext.Consumer>
+      {({ en, handleSubmit }) => {
+        return <Translator en={en} handleSubmit={handleSubmit} />
+      }}
+    </TranslationContext.Consumer>
     <div className="rain-background">
       <img src={require("../../assets/images/rain-background-large.gif")} />
     </div>
