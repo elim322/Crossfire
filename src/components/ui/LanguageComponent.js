@@ -1,11 +1,10 @@
 import React from "react"
-import { TranslationContext } from "../context/TranslationContext"
 
-const Translator = ({ en, handleSubmit }) => (
+const Translator = ({ contextProps }) => (
   <img
-    onClick={() => handleSubmit()}
+    onClick={() => contextProps.handleSubmit()}
     src={
-      en === true
+      contextProps.en === true
         ? require("../../assets/images/german.png")
         : require("../../assets/images/english.png")
     }
