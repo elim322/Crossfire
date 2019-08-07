@@ -1,4 +1,21 @@
 .contact {
-  height: 85vh;
-  width: 85vw;
+  height: 100%;
+  width: 100%;
+}
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .contact-details {
+    .details-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      li {
+        width: 50%;
+      }
+    }
+  }
+  .contact-form {
+  }
 }
