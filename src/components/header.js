@@ -46,9 +46,12 @@ const Header = ({ siteTitle }) => {
             className="navIcon"
           />
           <TranslationContext.Consumer>
-            {({ en, handleSubmit }) => (
-              <Translator en={en} handleSubmit={handleSubmit} />
-            )}
+            {({ en, handleSubmit }) => {
+              {
+                console.log(en)
+              }
+              return <Translator en={en} handleSubmit={handleSubmit} />
+            }}
           </TranslationContext.Consumer>
         </div>
       </div>
