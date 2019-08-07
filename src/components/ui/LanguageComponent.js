@@ -4,7 +4,7 @@ const Translator = ({ contextProps }) => (
   <img
     onClick={() => contextProps.handleSubmit()}
     src={
-      contextProps.en === true
+      typeof contextProps.en === "boolean" && contextProps.en === true
         ? require("../../assets/images/german.png")
         : require("../../assets/images/english.png")
     }
