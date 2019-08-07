@@ -50,7 +50,9 @@ const Header = ({ siteTitle }) => {
               {
                 console.log(props)
               }
-              return <Translator contextProps={props} />
+              return (
+                props.en !== undefined && <Translator contextProps={props} />
+              )
             }}
           </TranslationContext.Consumer>
         </div>
