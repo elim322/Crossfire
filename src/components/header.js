@@ -47,9 +47,11 @@ const Header = ({ siteTitle }) => {
           />
           <TranslationContext.Consumer>
             {({ handleSubmit }) => (
-              <button>
-                <Translator onClick={handleSubmit} />
-              </button>
+              <Translator
+                onClick={() => {
+                  handleSubmit()
+                }}
+              />
             )}
           </TranslationContext.Consumer>
         </div>
