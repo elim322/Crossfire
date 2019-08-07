@@ -4,22 +4,25 @@ import Cast from "../components/cast/cast"
 import Contact from "../components/contact"
 import Production from "../components/production/"
 import Trailer from "../components/trailer"
+import TranslationProvider from "../components/context/TranslationContext"
 
 const IndexPage = () => (
-  <Layout>
-    <section id="section1" className="trailer">
-      <Trailer />
-    </section>
-    <section id="section2" className="cast">
-      <Cast />
-    </section>
-    <section id="section3" className="production">
-      <Production />
-    </section>
-    <section id="section4" className="contact">
-      <Contact />
-    </section>
-  </Layout>
+  <TranslationProvider>
+    <Layout>
+      <section id="section1" className="trailer">
+        <Trailer />
+      </section>
+      <section id="section2" className="cast">
+        <Cast />
+      </section>
+      <section id="section3" className="production">
+        <Production />
+      </section>
+      <section id="section4" className="contact">
+        <Contact />
+      </section>
+    </Layout>
+  </TranslationProvider>
 )
 
 export default IndexPage
