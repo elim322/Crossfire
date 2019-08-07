@@ -14,7 +14,6 @@ export default class TranslationProvider extends Component {
     this.setState({
       en: !this.state.en,
     })
-    console.log("clicked!")
   }
 
   render() {
