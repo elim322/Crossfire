@@ -1,21 +1,15 @@
 import React from "react"
-import { TranslationContext } from "../context/TranslationContext"
+import german from "../../assets/images/german.png"
+import english from "../../assets/images/english.png"
 
-const Translator = () => (
-  <TranslationContext.Consumer>
-    {({ en, handleSubmit }) => {
-      return (
-        <img
-          onClick={() => handleSubmit()}
-          src={
-            en === true
-              ? require("../../assets/images/german.png")
-              : require("../../assets/images/english.png")
-          }
-        />
-      )
-    }}
-  </TranslationContext.Consumer>
+const Translator = ({ en, handleSubmit }) => (
+  <>
+    {en === false ? (
+      <img onClick={() => handleSubmit()} src={german} />
+    ) : (
+      <img onClick={() => handleSubmit()} src={english} />
+    )}
+  </>
 )
 
 export default Translator

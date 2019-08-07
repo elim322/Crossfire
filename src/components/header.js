@@ -2,8 +2,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
 import Countdown from "react-countdown-now"
-import Translator from "../components/ui/LanguageComponent"
-import { TranslationContext } from "../components/context/TranslationContext"
+import Translator from "./ui/LanguageComponent"
+import { TranslationContext } from "./context/TranslationContext"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -45,7 +45,16 @@ const Header = ({ siteTitle }) => {
             src={require("../assets/images/instagram.png")}
             className="navIcon"
           />
-          <Translator />
+          {/* <TranslationContext.Consumer>
+            {props => {
+              {
+                console.log(props)
+              }
+              return (
+                props.en !== undefined && <Translator contextProps={props} />
+              )
+            }}
+          </TranslationContext.Consumer> */}
         </div>
       </div>
     </header>
