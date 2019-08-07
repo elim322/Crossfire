@@ -1,4 +1,56 @@
 .contact {
-  height: 85vh;
-  width: 85vw;
+  height: 100%;
+  width: 100%;
+}
+.contact-title {
+  @extend .center-title;
+  .contact-title-box {
+    @extend .title-box;
+  }
+}
+footer {
+  background-color: #92092c;
+}
+.contact-section {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #92092c;
+  .location .map .iframe-map {
+    width: 500px;
+    height: 350px;
+  }
+  .contact-details {
+    .details-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      li {
+        width: 50%;
+      }
+    }
+  }
+  .contact-form {
+    width: 35%;
+    .field {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 1rem;
+      .name-input {
+        width: 80%;
+      }
+    }
+    .email-input {
+      width: 80%;
+    }
+    .message-input {
+      width: 80%;
+    }
+  }
+  .actions {
+    li {
+      list-style-type: none;
+    }
+  }
 }
