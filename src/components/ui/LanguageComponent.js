@@ -1,14 +1,16 @@
 import React from "react"
+import german from "../../assets/images/german.png"
+import english from "../../assets/images/english.png"
 
 const Translator = ({ contextProps }) => (
-  <img
-    onClick={() => contextProps.handleSubmit()}
-    src={
-      typeof contextProps.en === "boolean" && contextProps.en === true
-        ? require("../../assets/images/german.png")
-        : require("../../assets/images/english.png")
-    }
-  />
+  <>
+    {console.log(contextProps.en)}
+    {contextProps.en === false ? (
+      <img onClick={() => contextProps.handleSubmit()} src={german} />
+    ) : (
+      <img onClick={() => contextProps.handleSubmit()} src={english} />
+    )}
+  </>
 )
 
 export default Translator
