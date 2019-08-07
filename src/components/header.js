@@ -3,7 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Countdown from "react-countdown-now"
 import Translator from "../components/ui/LanguageComponent"
-import { TranslationContext } from "../components/context/TranslationContext"
+import { TranslationContext } from "./context/TranslationContext"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => {
           />
           <TranslationContext.Consumer>
             {({ en, handleSubmit }) => {
-              ;<Translator en={en} handleSubmit={handleSubmit} />
+              return <Translator en={en} handleSubmit={handleSubmit} />
             }}
           </TranslationContext.Consumer>
         </div>
