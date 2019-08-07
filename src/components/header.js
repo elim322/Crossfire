@@ -45,15 +45,7 @@ const Header = ({ siteTitle }) => {
             src={require("../assets/images/instagram.png")}
             className="navIcon"
           />
-          <TranslationContext.Consumer>
-            {({ handleSubmit }) => (
-              <Translator
-                onClick={() => {
-                  handleSubmit()
-                }}
-              />
-            )}
-          </TranslationContext.Consumer>
+          <Translator />
         </div>
       </div>
     </header>

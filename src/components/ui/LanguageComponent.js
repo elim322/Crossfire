@@ -3,10 +3,10 @@ import { TranslationContext } from "../context/TranslationContext"
 
 const Translator = () => (
   <TranslationContext.Consumer>
-    {({ en }) => {
+    {({ en, handleSubmit }) => {
       return (
         <img
-          // onClick={handleSubmit}
+          onClick={() => handleSubmit()}
           src={
             en === true
               ? require("../../assets/images/german.png")
