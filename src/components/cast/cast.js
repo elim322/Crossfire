@@ -15,7 +15,7 @@ const Cast = () => (
     <div className="cast-block">
       <TranslationContext.Consumer>
         {({ en }) => {
-          en === true
+          return en === true
             ? cast.cast.map(cast => {
                 return <CastListItem key={cast.num} cast={cast} />
               })

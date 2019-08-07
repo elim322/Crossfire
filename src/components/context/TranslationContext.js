@@ -11,10 +11,9 @@ export default class TranslationProvider extends Component {
   }
 
   handleSubmit = () => {
-    this.setState
-    {
-      !this.state.en
-    }
+    this.setState({
+      en: !this.state.en,
+    })
     console.log("clicked!")
   }
 
