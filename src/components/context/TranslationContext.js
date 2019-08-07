@@ -11,13 +11,15 @@ export default class TranslationProvider extends Component {
   }
 
   handleSubmit = () => {
-    this.setState({ en: true })
+    this.setState(!this.state.en)
   }
 
   render() {
     const { children } = this.props
     return (
-      <TranslationContext.Provider value={{ handleSubmit: this.handleSubmit }}>
+      <TranslationContext.Provider
+        value={{ en: this.state.en, handleSubmit: this.handleSubmit }}
+      >
         {children}
       </TranslationContext.Provider>
     )
