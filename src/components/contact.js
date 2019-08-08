@@ -6,7 +6,10 @@ const Contact = () => (
       <h1 className="contact-title-box">Sponsors and Affiliates</h1>
     </div>
     <div className="sponsors">
-      <img src={require("../assets/images/sponsors.jpg")} />
+      <img
+        className="sponsor-logo"
+        src={require("../assets/images/sponsors.jpg")}
+      />
     </div>
     <div className="contact-section">
       <div className="location">
@@ -35,7 +38,7 @@ const Contact = () => (
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
           <div className="field half first">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Full Name</label>
             <input type="text" name="name" id="name" className="name-input" />
           </div>
           <div className="field half">

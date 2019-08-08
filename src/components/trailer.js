@@ -42,6 +42,8 @@ class Trailer extends Component {
           ></button>
         </div>
 
+        <div className="v1"></div>
+
         <div>
           <ReactPlayer
             className="trailer-background"

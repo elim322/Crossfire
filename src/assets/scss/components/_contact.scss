@@ -2,6 +2,10 @@
   height: 100%;
   width: 100%;
 }
+.sponsor-logo {
+  max-width: 100%;
+  height: 100%;
+}
 .contact-title {
   @extend .center-title;
   .contact-title-box {
@@ -17,6 +21,12 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   background-color: #92092c;
+
+  .map {
+    border-right: 1px solid white;
+    padding-right: 8rem;
+  }
+
   .location .map .iframe-map {
     width: 500px;
     height: 350px;
@@ -49,8 +59,13 @@ footer {
     }
   }
   .actions {
+    margin-left: 0;
     li {
       list-style-type: none;
+    }
+    input {
+      background-color: #345c58;
+      color: white;
     }
   }
 }

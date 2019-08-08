@@ -2,6 +2,13 @@
   height: 100%;
   width: 100%;
 }
+.translator {
+  position: absolute;
+  top: 15px;
+  right: 80px;
+  height: 45px;
+  width: 45px;
+}
 .cast-title {
   @extend .center-title;
   .cast-title-box {
@@ -13,6 +20,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 90%;
+  margin: 0 auto;
   .cast-members {
     width: 20%;
     margin: 0 auto;
@@ -34,11 +43,17 @@
         p {
           margin-bottom: 0;
           color: white;
+          font-size: 16px;
         }
         .cast-image {
-          height: 200px;
+          // height: 200px;
+          // width: 200px;
+          // margin-bottom: 0;
           width: 200px;
-          margin-bottom: 0;
+          height: auto;
+          // margin-top: 90px;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
     }
