@@ -2,8 +2,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
 import Countdown from "react-countdown-now"
-import Translator from "./ui/LanguageComponent"
-import { TranslationContext } from "./context/TranslationContext"
+import { TranslationContext } from "../components/context/TranslationContext"
+import Translator from "../components/ui/LanguageComponent"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -37,24 +37,32 @@ const Header = ({ siteTitle }) => {
         <h1 className="navbar-title">
           <p>
             Premiere:{" "}
-            <Countdown className="nav-link" date={Date.now() + 777600000} />
+            <Countdown className="nav-link" date={Date.now() + 86400000} />
           </p>
         </h1>
         <div className="buttons">
-          <img
-            src={require("../assets/images/instagram.png")}
-            className="navIcon"
-          />
-          {/* <TranslationContext.Consumer>
-            {props => {
-              {
-                console.log(props)
-              }
+          <a
+            target="_blank"
+            href="https://www.instagram.com/official.crossfire.film/?hl=en"
+          >
+            <img
+              src={require("../assets/images/instagram.png")}
+              className="navIcon"
+            />
+          </a>
+        </div>
+        <div className="translation-button">
+          <TranslationContext.Consumer>
+            {({ en, handleSubmit }) => {
               return (
-                props.en !== undefined && <Translator contextProps={props} />
+                <Translator
+                  en={en}
+                  handleSubmit={handleSubmit}
+                  className="en-de"
+                />
               )
             }}
-          </TranslationContext.Consumer> */}
+          </TranslationContext.Consumer>
         </div>
       </div>
     </header>

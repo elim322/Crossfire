@@ -6,6 +6,8 @@ body {
     -ms-filter: blur(2px);
     filter: blur(2px);
   }
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .main {

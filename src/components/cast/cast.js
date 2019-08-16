@@ -7,11 +7,11 @@ import Translator from "../ui/LanguageComponent"
 
 const Cast = () => (
   <div>
-    <TranslationContext.Consumer>
+    {/* <TranslationContext.Consumer>
       {({ en, handleSubmit }) => {
         return <Translator en={en} handleSubmit={handleSubmit} />
       }}
-    </TranslationContext.Consumer>
+    </TranslationContext.Consumer> */}
     <div className="rain-background">
       <img src={require("../../assets/images/rain-background-large.gif")} />
     </div>

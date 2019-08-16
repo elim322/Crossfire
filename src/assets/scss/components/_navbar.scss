@@ -3,36 +3,52 @@
   position: fixed;
   width: 100%;
   overflow: hidden;
-  .navIcon {
-    height: 50px;
-    width: 50px;
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .navIcon {
+      height: 45px;
+      width: 45px;
+    }
   }
+  .translation-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .translator {
+      height: 45px;
+      width: 45px;
+    }
+  }
+
   .navbar-elements {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     .scroll-targets {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 30%;
+      width: 50%;
     }
     .site-title {
       margin: auto 0;
       color: white;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 30px;
       font-style: italic;
     }
     .navbar-title {
       margin: auto 0;
-      font-size: 0.8rem;
+      font-size: 25px;
       color: white;
       .nav-link {
         text-decoration: none;
         color: #fff;
+        font-size: 25px;
       }
       p {
         margin-top: 1.45rem;

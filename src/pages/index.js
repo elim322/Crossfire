@@ -4,10 +4,9 @@ import Cast from "../components/cast/cast"
 import Contact from "../components/contact"
 import Production from "../components/production/"
 import Trailer from "../components/trailer"
-import TranslationProvider from "../components/context/TranslationContext"
 
 const IndexPage = () => (
-  <TranslationProvider>
+
     <Layout>
       <section id="section1" className="trailer">
         <Trailer />
@@ -22,7 +21,7 @@ const IndexPage = () => (
         <Contact />
       </section>
     </Layout>
-  </TranslationProvider>
+
 )
 
 export default IndexPage
