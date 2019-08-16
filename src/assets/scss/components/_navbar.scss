@@ -12,13 +12,22 @@
       width: 45px;
     }
   }
+  .translation-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .translator {
+      height: 45px;
+      width: 45px;
+    }
+  }
 
   .navbar-elements {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     .scroll-targets {
       display: flex;
       flex-direction: row;

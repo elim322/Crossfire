@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "../assets/scss/main.scss"
+import TranslationProvider from "../components/context/TranslationContext"
+
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -29,6 +31,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <TranslationProvider>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           <main className="main">{children}</main>
@@ -37,6 +40,7 @@ const Layout = ({ children }) => (
             Timothy Chan
           </footer>
         </div>
+          </TranslationProvider>
       </>
     )}
   />

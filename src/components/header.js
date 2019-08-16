@@ -2,6 +2,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
 import Countdown from "react-countdown-now"
+import { TranslationContext } from "../components/context/TranslationContext"
+import Translator from "../components/ui/LanguageComponent"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -48,6 +50,19 @@ const Header = ({ siteTitle }) => {
               className="navIcon"
             />
           </a>
+        </div>
+        <div className="translation-button">
+          <TranslationContext.Consumer>
+            {({ en, handleSubmit }) => {
+              return (
+                <Translator
+                  en={en}
+                  handleSubmit={handleSubmit}
+                  className="en-de"
+                />
+              )
+            }}
+          </TranslationContext.Consumer>
         </div>
       </div>
     </header>
