@@ -5,11 +5,13 @@
   overflow: hidden;
   .buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    margin: auto 0;
     .navIcon {
       height: 45px;
       width: 45px;
+      margin-right: 10px;
     }
   }
   .translation-button {

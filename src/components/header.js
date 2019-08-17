@@ -50,19 +50,20 @@ const Header = ({ siteTitle }) => {
               className="navIcon"
             />
           </a>
-        </div>
-        <div className="translation-button">
-          <TranslationContext.Consumer>
-            {({ en, handleSubmit }) => {
-              return (
-                <Translator
-                  en={en}
-                  handleSubmit={handleSubmit}
-                  className="en-de"
-                />
-              )
-            }}
-          </TranslationContext.Consumer>
+
+          <div className="translation-button">
+            <TranslationContext.Consumer>
+              {({ en, handleSubmit }) => {
+                return (
+                  <Translator
+                    en={en}
+                    handleSubmit={handleSubmit}
+                    className="en-de"
+                  />
+                )
+              }}
+            </TranslationContext.Consumer>
+          </div>
         </div>
       </div>
     </header>
