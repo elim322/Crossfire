@@ -1,7 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
-import Countdown from "react-countdown-now"
 import { TranslationContext } from "../components/context/TranslationContext"
 import Translator from "../components/ui/LanguageComponent"
 
@@ -34,12 +33,6 @@ const Header = ({ siteTitle }) => {
             </Link>
           </h1>
         </div>
-        <h1 className="navbar-title">
-          <p>
-            Premiere:{" "}
-            <Countdown className="nav-link" date={Date.now() + 86400000} />
-          </p>
-        </h1>
         <div className="buttons">
           <a
             target="_blank"
