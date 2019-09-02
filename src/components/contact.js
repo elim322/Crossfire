@@ -18,13 +18,13 @@ const Contact = () => (
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.1421972123144!2d6.805311315745134!3d50.828529979529335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf3d9c390ec3c3%3A0xb3d598837b62d663!2sMittelstra%C3%9Fe+11%2C+50374+Erftstadt%2C+Germany!5e0!3m2!1sen!2sca!4v1565160835642!5m2!1sen!2sca"
             className="iframe-map"
           />
-        </div>
-        <div className="contact-details">
-          <ul className="details-list">
-            <li>Mittelstraße 11, 50374 Erftstadt, Germany</li>
-            <li>+39 1234 5678</li>
-            <li>official.crossfire.film@gmail.com</li>
-          </ul>
+          <div className="contact-details">
+            <ul className="details-list">
+              <li>Mittelstraße 11, 50374 Erftstadt, Germany</li>
+              <li>+39 1234 5678</li>
+              <li>official.crossfire.film@gmail.com</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="contact-form">

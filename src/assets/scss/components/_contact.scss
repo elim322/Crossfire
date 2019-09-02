@@ -1,3 +1,4 @@
+@import "./_mixins";
 .contact {
   height: 100%;
   width: 100%;
@@ -18,15 +19,23 @@ footer {
 .contact-section {
   padding-top: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   background-color: #92092c;
-
-  .map {
-    border-right: 1px solid white;
-    padding-right: 8rem;
+  @include desktop {
+    flex-direction: row;
   }
 
+  .map {
+    @include tablet {
+      width: 80%;
+      margin: 0 auto;
+    }
+    // @include desktop {
+    //   border-right: 1px solid $primary-text-color;
+    //   padding-right: 8rem;
+    // }
+  }
   .location .map .iframe-map {
     width: 500px;
     height: 350px;
@@ -36,13 +45,21 @@ footer {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      width: 80%;
       li {
         width: 50%;
+        color: $primary-text-color;
       }
     }
   }
   .contact-form {
-    width: 35%;
+    width: 80%;
+    margin: 0 auto;
+    @include desktop {
+      width: 35%;
+      margin: 0;
+    }
+
     .field {
       display: flex;
       flex-direction: column;
@@ -68,4 +85,13 @@ footer {
       color: white;
     }
   }
+}
+
+label {
+  color: $primary-text-color;
+}
+
+footer {
+  color: $primary-text-color;
+  text-align: center;
 }

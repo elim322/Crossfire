@@ -1,3 +1,4 @@
+@import "./_mixins";
 .navbar {
   background-color: #92092c;
   position: fixed;
@@ -8,53 +9,62 @@
     flex-direction: row;
     justify-content: center;
     margin: auto 0;
-    .navIcon {
-      height: 45px;
-      width: 45px;
-      margin-right: 10px;
-    }
-  }
-  .translation-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .translator {
-      height: 45px;
-      width: 45px;
-    }
   }
 
-  .navbar-elements {
-    margin: 0 auto;
+  button {
+    @include desktop {
+      display: none;
+    }
+  }
+}
+.title {
+  padding: 0 3rem;
+}
+.scroll-targets {
+  display: none;
+  @include desktop {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
-    .scroll-targets {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 50%;
+    margin: auto 0;
+    width: 50%;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $primary-text-color;
+  font-size: 25px;
+}
+.drawer-link {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+h1 {
+  margin-bottom: 0;
+}
+
+.social-translate {
+  .navIcon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+  }
+  .translation-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    .translator {
+      height: 30px;
+      width: 30px;
     }
-    .site-title {
-      margin: auto 0;
-      color: white;
-      text-decoration: none;
-      font-size: 30px;
-      font-style: italic;
-    }
-    .navbar-title {
-      margin: auto 0;
-      font-size: 25px;
-      color: white;
-      .nav-link {
-        text-decoration: none;
-        color: #fff;
-        font-size: 25px;
-      }
-      p {
-        margin-top: 1.45rem;
-      }
-    }
+  }
+}
+.hamburger {
+  @include desktop {
+    display: none;
   }
 }

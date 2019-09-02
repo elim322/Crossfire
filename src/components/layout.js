@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
+import Drawer from "./ui/DrawerComponent"
 import "../assets/scss/main.scss"
 import TranslationProvider from "../components/context/TranslationContext"
-
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -32,15 +32,16 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <TranslationProvider>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
-          <main className="main">{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built by AJ Aguasin, Einer Lim, and
-            Timothy Chan
-          </footer>
-        </div>
-          </TranslationProvider>
+          {/* <Header  /> */}
+          <Drawer siteTitle={data.site.siteMetadata.title} className="drawer" />
+          <div>
+            <main className="main">{children}</main>
+            <footer>
+              © {new Date().getFullYear()}, Built by AJ Aguasin, Einer Lim, and
+              Timothy Chan
+            </footer>
+          </div>
+        </TranslationProvider>
       </>
     )}
   />
