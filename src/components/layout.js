@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import Header from "./header"
 import Drawer from "./ui/DrawerComponent"
 import "../assets/scss/main.scss"
 import TranslationProvider from "../components/context/TranslationContext"
