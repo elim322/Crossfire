@@ -23,35 +23,36 @@
   width: 90%;
   margin: 0 auto;
   .cast-members {
-    width: 20%;
     margin: 0 auto;
     padding: 0.5rem 1rem;
     background-color: transparent;
     transition: background-color 0.4s ease;
-
-    &:hover {
-      background-color: $animation-green;
+    @include desktop {
+      width: 20%;
+      // &:hover {
+      //   background-color: $animation-green;
+      // }
     }
+
     .cast-list {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: flex-start;
       margin: 0 auto;
-      width: 80%;
+      @include desktop {
+        width: 80%;
+      }
       .member {
+        text-align: center;
         p {
           margin-bottom: 0;
           color: white;
           font-size: 16px;
         }
         .cast-image {
-          // height: 200px;
-          // width: 200px;
-          // margin-bottom: 0;
           width: 200px;
           height: auto;
-          // margin-top: 90px;
           margin-left: auto;
           margin-right: auto;
         }

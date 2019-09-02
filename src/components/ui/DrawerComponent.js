@@ -193,7 +193,7 @@ export default function PersistentDrawerLeft() {
         <List>
           <ListItem button>
             <ListItemText>
-              <Link to="/#section1" className="nav-link">
+              <Link to="/#section1" className="drawer-link">
                 <Typography variant="h6" noWrap>
                   Trailer
                 </Typography>
@@ -202,7 +202,7 @@ export default function PersistentDrawerLeft() {
           </ListItem>
           <ListItem button>
             <ListItemText>
-              <Link to="/#section2" className="nav-link">
+              <Link to="/#section2" className="drawer-link">
                 <Typography variant="h6" noWrap>
                   Cast
                 </Typography>
@@ -211,7 +211,7 @@ export default function PersistentDrawerLeft() {
           </ListItem>
           <ListItem button>
             <ListItemText>
-              <Link to="/#section3" className="nav-link">
+              <Link to="/#section3" className="drawer-link">
                 <Typography variant="h6" noWrap>
                   Production
                 </Typography>
@@ -220,7 +220,7 @@ export default function PersistentDrawerLeft() {
           </ListItem>
           <ListItem button>
             <ListItemText>
-              <Link to="/#section4" className="nav-link">
+              <Link to="/#section4" className="drawer-link">
                 <Typography variant="h6" noWrap>
                   Contact
                 </Typography>

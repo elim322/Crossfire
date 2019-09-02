@@ -38,6 +38,7 @@ footer {
       flex-wrap: wrap;
       li {
         width: 50%;
+        color: $primary-text-color;
       }
     }
   }
@@ -68,4 +69,12 @@ footer {
       color: white;
     }
   }
+}
+
+label {
+  color: $primary-text-color;
+}
+
+footer {
+  color: $primary-text-color;
 }
